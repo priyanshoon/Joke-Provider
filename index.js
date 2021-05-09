@@ -1,4 +1,4 @@
-const url = "https://v2.jokeapi.dev/joke/Any?type=single";
+const url = "https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,sexist,explicit&type=single";
 const jokes = document.querySelector("#joke");
 const loadJokes = document.querySelector("#load");
 const cat = document.querySelector("#cat")
